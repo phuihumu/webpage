@@ -117,3 +117,18 @@ button {
 .width {
     max-width: 175px;
 }
+
+.quote-section {
+    background-color:#E5E7EB;
+    color:#1F2937;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoted-person {
+    font-weight: bold;
+}
