@@ -20,7 +20,7 @@ body {
 }
 
 .right {
-    padding-right: 150px;
+    padding-right: 140px;
 }
 
 
@@ -41,17 +41,30 @@ ul {
 .intro {
     background-color: #1F2937;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    padding: 50px;
+}
+
+.intro-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding:16px;
 }
 
 .main-text{
     color: #F9FAF8;
     font-weight:bolder;
     font-size: 48px;
+    flex-wrap: wrap;
 }
 
 .sub-text{
     color:#E5E7EB;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 button {
@@ -64,4 +77,6 @@ button {
 
 .intro img {
     max-width: 400px;
+    padding: 16px;
+    padding-right: 100px;
 }
