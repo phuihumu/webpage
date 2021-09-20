@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -191,5 +193,9 @@ button {
     background-color: #1F2937;
     color:rgb(222, 223, 224);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    padding:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
